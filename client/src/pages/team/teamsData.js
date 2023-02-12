@@ -2,8 +2,8 @@
 import aditiYadavImage from "./assets/wingCoordinator/aditiYadav.png"
 
 // content
-import abhiramMundruImage from "./assets/contentTeam/abhiramMundru.png";
-import nikhilDahriyaImage from "./assets/contentTeam/nikhilDahriya.png";
+import JigneshPatilImage from "./assets/contentTeam/jiggi.png";
+import veDantRaulkarImage from "./assets/contentTeam/Vedant-Raulkar.png";
 
 // marketing
 import anandGuttaImage from "./assets/marketingTeam/anandGutta.png";
@@ -178,7 +178,7 @@ export default [
     contentTeam: [
       {
         id: 14,
-        memberImage: nikhilDahriyaImage,
+        memberImage:veDantRaulkarImage,
         memberName: "Nikhil Dahriya",
         memberCollegeYear: "2nd yr, CSE",
         memberInstagramLink: "https://www.instagram.com/netfreakxo/",
@@ -188,9 +188,9 @@ export default [
       },
       {
         id: 15,
-        memberImage: abhiramMundruImage,
-        memberName: "Abhiram Mundru",
-        memberCollegeYear: "2nd yr, CSE",
+        memberImage: JigneshPatilImage,
+        memberName: "Jignesh Patil",
+        memberCollegeYear: "2nd yr, ECE",
         memberInstagramLink: "https://www.instagram.com/abhi_from_ktm/",
         memberGithubLink: "https://github.com/AbhiramMundru",
         memberLinkedinLink:
