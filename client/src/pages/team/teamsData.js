@@ -1,9 +1,9 @@
 // wing coordinator
-import aditiYadavImage from "./assets/wingCoordinator/aditiYadav.png"
+import ChinmayMadvekar from "./assets/wingCoordinator/ChinmayMadvekar.png"
 
 // content
 import JigneshPatilImage from "./assets/contentTeam/jiggi.png";
-import veDantRaulkarImage from "./assets/contentTeam/Vedant-Raulkar.png";
+
 
 // marketing
 import anandGuttaImage from "./assets/marketingTeam/anandGutta.png";
@@ -11,8 +11,8 @@ import aryaTiwariImage from "./assets/marketingTeam/aryaTiwari.png";
 import darshanDaharwalImage from "./assets/marketingTeam/darshanDaharwal.png";
 
 // management
-import chiragGargImage from "./assets/managementTeam/chiragGarg.png";
-import yashMishraImage from "./assets/managementTeam/yashMishra.png";
+import veDantRaulkarImage from "./assets/managementTeam/Vedant-Raulkar_1.png"
+import AdityKulkarni from "./assets/managementTeam/AdityKulkarni.png"
 
 // design
 import sujalBarsaiyanImage from "./assets/designTeam/sujalBarsaiyan.png";
@@ -31,9 +31,9 @@ export default [
     wingCoordinator: [
       {
         id: 1,
-        memberImage: aditiYadavImage,
-        memberName: "Aditi Yadav",
-        memberCollegeYear: "2nd yr, CSE",
+        memberImage: ChinmayMadvekar,
+        memberName: "Chinmay Madvekar",
+        memberCollegeYear: "2nd yr, ECE",
         memberInstagramLink: "https://www.instagram.com/aditiiyadavv14/",
         memberGithubLink: "https://github.com/aditi1403",
         memberLinkedinLink: "https://www.linkedin.com/in/aditiyadav03",
@@ -42,52 +42,22 @@ export default [
   },
   {
     managementTeam: [
+      
       {
-        id: 2,
-        memberImage: chiragGargImage,
-        memberName: "Chirag Garg",
-        memberCollegeYear: "2nd yr, CSE",
-        memberInstagramLink:
-          "https://instagram.com/chiragarg890?utm_medium=copy_link",
-        memberGithubLink: "https://github.com/chiraggarg890",
-        memberLinkedinLink: "https://www.linkedin.com/in/chirag-garg-1606a616b",
-      },
-      {
-        id: 3,
-        memberImage: yogeshSewadaImage,
-        memberName: "Yogesh Sewada",
-        memberCollegeYear: "2nd yr, CSE",
-        memberInstagramLink:
-          "https://instagram.com/iuybketvsg?utm_medium=copy_link",
-        memberGithubLink: "https://github.com/SakataGintoki0",
+        id: 6,
+        memberImage: veDantRaulkarImage,
+        memberName: "Vedant Raulkar",
+        memberCollegeYear: "2nd yr, ECE",
+        memberInstagramLink: "https://www.instagram.com/iam__yashmishra/",
+        memberGithubLink: "https://github.com/Geekboieyash",
         memberLinkedinLink:
-          "https://www.linkedin.com/in/yogesh-sewada-83aaa3201",
-      },
-      {
-        id: 4,
-        memberImage: shubhamKumarImage,
-        memberName: "Shubham Kumar",
-        memberCollegeYear: "2nd yr, CSE",
-        memberInstagramLink:
-          "https://instagram.com/shubham_kr_13_?utm_medium=copy_link",
-        memberGithubLink: "https://github.com/shubham132002",
-        memberLinkedinLink:
-          "https://www.linkedin.com/in/shubham-kumar-878b66200",
-      },
-      {
-        id: 5,
-        memberImage: aditiYadavImage,
-        memberName: "Aditi Yadav",
-        memberCollegeYear: "2nd yr, CSE",
-        memberInstagramLink: "https://www.instagram.com/aditiiyadavv14/",
-        memberGithubLink: "https://github.com/aditi1403",
-        memberLinkedinLink: "https://www.linkedin.com/in/aditiyadav03",
+          "https://www.linkedin.com/in/yash-mishra-649090216/",
       },
       {
         id: 6,
-        memberImage: yashMishraImage,
-        memberName: "Yash Mishra",
-        memberCollegeYear: "2nd yr, CSE",
+        memberImage: AdityKulkarni,
+        memberName: "Adity Kulkarni",
+        memberCollegeYear: "2nd yr, ECE",
         memberInstagramLink: "https://www.instagram.com/iam__yashmishra/",
         memberGithubLink: "https://github.com/Geekboieyash",
         memberLinkedinLink:
@@ -162,30 +132,12 @@ export default [
         memberLinkedinLink:
           "https://www.linkedin.com/in/darshan-daharwal-b55446202/",
       },
-      {
-        id: 13,
-        memberImage: chiragGargImage,
-        memberName: "Chirag Garg",
-        memberCollegeYear: "2nd yr, CSE",
-        memberInstagramLink:
-          "https://instagram.com/chiragarg890?utm_medium=copy_link",
-        memberGithubLink: "https://github.com/chiraggarg890",
-        memberLinkedinLink: "https://www.linkedin.com/in/chirag-garg-1606a616b",
-      },
+      
     ],
   },
   {
     contentTeam: [
-      {
-        id: 14,
-        memberImage:veDantRaulkarImage,
-        memberName: "Nikhil Dahriya",
-        memberCollegeYear: "2nd yr, CSE",
-        memberInstagramLink: "https://www.instagram.com/netfreakxo/",
-        memberGithubLink: "https://github.com/NDROIDsx",
-        memberLinkedinLink:
-          "https://www.linkedin.com/in/nikhil-dahriya-89a10a200/?originalSubdomain=in",
-      },
+     
       {
         id: 15,
         memberImage: JigneshPatilImage,
@@ -196,15 +148,7 @@ export default [
         memberLinkedinLink:
           "https://www.linkedin.com/in/abhiram-mundru-a81a68202/",
       },
-      {
-        id: 16,
-        memberImage: aditiYadavImage,
-        memberName: "Aditi Yadav",
-        memberCollegeYear: "2nd yr, CSE",
-        memberInstagramLink: "https://www.instagram.com/aditiiyadavv14/",
-        memberGithubLink: "https://github.com/aditi1403",
-        memberLinkedinLink: "https://www.linkedin.com/in/aditiyadav03",
-      },
+     
     ],
   },
   {
@@ -219,16 +163,7 @@ export default [
         memberLinkedinLink:
           "https://www.linkedin.com/in/bhavesh-chaudhari-bb4966208/",
       },
-      {
-        id: 18,
-        memberImage: yashMishraImage,
-        memberName: "Yash Mishra",
-        memberCollegeYear: "2nd yr, CSE",
-        memberInstagramLink: "https://www.instagram.com/iam__yashmishra/",
-        memberGithubLink: "https://github.com/Geekboieyash",
-        memberLinkedinLink:
-          "https://www.linkedin.com/in/yash-mishra-649090216/",
-      },
+      
       {
         id: 19,
         memberImage: prateekNiketImage,
