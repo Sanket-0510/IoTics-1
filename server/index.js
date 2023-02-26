@@ -5,7 +5,11 @@ const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
 app.use(express.json());
 const cors = require("cors");
-app.use(cors());
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 app.use(express.urlencoded({ extended: true }));
 mongoose
   .connect(process.env.DATABASE_LINK, {
@@ -23,22 +27,17 @@ mongoose
 const userSchema = new mongoose.Schema({
   name: {
     type: String,
-    
- 
   },
   email: {
     type: String,
-    unique:true
-    
+    unique: true,
   },
   rollNO: {
     type: Number,
-    unique:true
-  
+    unique: true,
   },
   phoneNo: {
-    type: Number
-   
+    type: Number,
   },
 });
 
@@ -49,9 +48,8 @@ app.listen(8000, async (req, res) => {
 
 app.post("/register", async (req, res) => {
   try {
-  
     const { firstname, email, rollNo, phoneNo } = req.body;
-    console.log(req.body.email)
+    console.log(req.body.email);
     const doc = new user({
       name: firstname,
       email: email,
@@ -60,19 +58,17 @@ app.post("/register", async (req, res) => {
     });
     const result = await doc.save();
     console.log(result);
-    res.send("ok ok")
+    res.send("ok ok");
   } catch (e) {
     console.log(e);
   }
 });
 
-app.get("/",async(req,res)=>{
-  return res.send("works")
-}
-)
+app.get("/", async (req, res) => {
+  return res.send("works");
+});
 
-app.get("/register",async(req,res)=>{
-   res.send("nice")
-   console.log("nice")
-}
-)
+app.get("/register", async (req, res) => {
+  res.send("nice");
+  console.log("nice");
+});
