@@ -65,6 +65,12 @@ app.post("/register", async (req, res) => {
     console.log(e);
   }
 });
+
+app.get("/",async(req,res)=>{
+  return res.send("works")
+}
+)
+
 app.get("/register",async(req,res)=>{
    res.send("nice")
    console.log("nice")
