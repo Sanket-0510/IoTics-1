@@ -189,7 +189,7 @@ const Form = () => {
       
   });
   const register = async(values,onSubmitProps)=>{
-    const registerResponse= await fetch("http://localhost:8000/register",{
+    const registerResponse= await fetch("https://iotics-1-production-f579.up.railway.app/register",{
       method:"POST",
       headers:{
         'Content-Type': 'application/json'
