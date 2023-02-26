@@ -183,7 +183,6 @@ const axios = require("axios");
 const Form = () => {
   const formSchema = yup.object().shape({
     firstname: yup.string().required("required"),
-    
     email: yup.string().required("required"),
     rollNo: yup.number().required("required"),
     phoneNo: yup.number().min(10, "enter the correct number").required("required")
